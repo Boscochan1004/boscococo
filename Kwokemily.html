@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>hw01</title>
+  <style>
+    body {
+      background-color: pink;
+      font-family: 'Merriweather', serif;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .button-container button {
+      margin: 5px;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .button-container button:hover {
+      background-color: #45a049;
+    }
+
+    .image-button {
+      cursor: pointer;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <center>
+    <h1>郭敏婷</h1>
+    <h1>夠鐘食藥啦</h1>
+  </center>
+
+  <div class="button-container">
+    <button onclick="myfunction1()">食薯片</button>
+    <button onclick="myfunction2()">飲jolly shandy</button>
+  </div>
+
+  <center>
+    <img src="Emily.jpg" height="300" width="300" alt="Click Me" onclick="myfunction3()" class="image-button">
+
+<p>click me</p>
+  </center>
+
+  <script>
+    function myfunction1() {
+      alert("諗吓好啦");
+    }
+
+    function myfunction2() {
+      confirm("諗吓好啦");
+    }
+
+    function myfunction3() {
+      alert("食藥啦");
+    }
+  </script>
+</body>
+</html>
